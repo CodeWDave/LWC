@@ -2,6 +2,35 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+nav{
+    margin-bottom: 1em;
+}
+
+.navbar-brand{
+    color: #a9335e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+
+.nav-item{
+    font-size: 1em;
+    padding: 0px .75em 0 .75em;
+    font-weight: 100;
+}
+
+
+
+/* Title Section */
 .container-fluid {
   padding: 3% 5%, 0, 5%;
 }
@@ -18,7 +47,7 @@ body {
   margin-left: 8rem;
 }
 
-.sign-up-btn:hover {
+.colored-botton:hover {
   background-color: #970c3f;
   color: ghostwhite;
 }
@@ -45,27 +74,137 @@ body {
   font-size: calc(100% + 1vw + 1vh);
 }
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;*/
 
-
-/* Navigation Bar */
-
-nav{
-    margin-bottom: 1em;
+/* Features section */
+#features{
+    margin-top:2rem;
 }
 
-.navbar-brand{
-    color: #970c3f;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+#features img{
+    height: 50%;
+    object-fit: fill;
+    display: block;
+    margin: auto;
 }
 
-.nav-item{
-    font-size: 1em;
-    padding: 0px .75em 0 .75em;
+#features h3{
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+#features p{
+    color: rgb(115, 115, 115);
+}
+
+.feature-column{
+    max-height:20rem;
+}
+
+
+/* Testimonials section */
+#testimonials{
+    text-align: center;
+    min-height: 30rem;  
+    background-color: #a9335e;
+    color: ghostwhite;
+    
+}
+
+.quote-name{
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+
+.carousel-item{
+    padding: 5rem 15%;
+    background-color: #a9335e;
+}
+
+.card-body{
+    min-height: 19rem;
+}
+
+.card-footer{
+    background-color: inherit;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+/* Pricing Section*/
+#pricing{
+    padding: 5rem;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (min-width: 992px) { 
+    .card{
+        min-height: 25rem;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .card{
+        min-height: 25rem;
+    }
+ }
+
+/* footer */
+#cta{
+    background-color: #a9335e;
+    text-align:center;
+}
+
+.cta-div{
+    padding: 8rem 0.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: ghostwhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.cta-div h3{
+    font-size: 3rem;
+}
+
+.verticle{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.footer-div{
+    padding: 5rem .5rem 5rem .5rem;
+    background-color: #a9335e;
+    text-align: center;
+    color: white;
     font-weight: 100;
 }
 
+.footer-img{
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-img img{
+    width: 3.5%;
+    height: 100%;
+    margin: .3rem 1rem;
+    opacity: .6;
+}
+
+html{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+}
