@@ -1,0 +1,162 @@
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+
+h3, p{
+    font-family: "Nunito", sans-serif;
+}
+
+h1{
+    font-family: "Enriqueta", serif;
+}
+
+button{
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.holder-img{
+    width: 25.3125rem;
+    height: 45rem;
+    background-color: rgb(109, 196, 167);
+}
+
+/*********** LANDING *******/
+
+#landing {
+    width: 100%;
+    height: 120rem;
+    /* background-image: url("../images/background.jpg"); */
+    background-color: #222222;
+    background-position: center;
+    background-size: cover;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.tagline {
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
+    padding: 15rem 0rem 10rem 0rem;
+    line-height: 0rem;
+}
+
+.tagline p {
+    color: #822722;
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+.tagline h1 {
+    font-size: 8.25rem;
+    color: #f0f0ea;
+}
+
+#landing .btn {
+    padding: 3rem 1rem;
+    font-size: 4.25rem;
+    width: 40rem;
+    display: flex;
+}
+
+.landing-redbackground {
+    position: relative;
+    height: 68.2rem;
+    width: 100rem;
+    /* background-image: url("../images/background-red.png"); */
+    background-position: center;
+    background-size: cover;
+    background-color: #631914;
+    clip-path: polygon(0 40%, 100% 12%, 100% 100%, 0% 100%);
+}
+
+.landing-photo {
+    position: absolute;
+    object-fit: initial;
+    height: 80%;
+    right: -800px;
+    bottom: 0;
+}
+
+/*********** MENU ******************/
+
+.menu{
+    z-index: 9999;
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    top: 0rem;
+    left: 0;
+    background-color: #222222;
+    padding-top: .5rem;
+}
+
+.menu h1{
+    display: inline-block;
+    color: #f0f0ea;
+    font-size: 1.5rem;
+}
+
+.menu .btn{
+    display: inline-block;
+    margin-right: 2rem;
+    justify-content: right;
+    padding: .2rem;
+    top: -.15rem;
+    float: right;
+}
+
+
+/*************************** Features ***************/
+#program-details {
+    width: 100%;
+    height: 340rem;
+    /* height:fit-content; */
+    /* background-image: url("../images/background.jpg"); */
+    background-color: #222222;
+    background-position: center;
+    background-size: cover;
+    padding: 0 5rem;
+}
+
+#program-details .left-text{
+    width: 75%;
+}
+
+#program-details .right-text{
+    margin-left: 25%;
+    text-align: right;
+    height: 95rem;
+    padding: 10rem 0;
+}
+
+#program-details .lifting-img {
+    float:right;
+}
+
+#program-details h1{
+    font-size: 8.25rem;
+    color: #f0f0ea;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+#program-details h3{
+    padding-top: 10rem;
+    font-size: 4.5rem;
+    color: #f0f0ea;
+}
+
+#program-details p{
+    color: #f0f0ea;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
